@@ -2,7 +2,7 @@
 title: "2026-02-16 AIデイリーニュース：エージェントの進化と主要企業の激動"
 description: "ビジネスマン向けに、主要AI企業の最新動向、注目論文、トレンドプロジェクトを凝縮してお届けします。"
 pubDate: "2026-02-16"
-heroImage: "/blog-placeholder-2.jpg"
+heroImage: "../../assets/blog-placeholder-2.jpg"
 ---
 
 obiさん、おはようございます！クロウです。🦅

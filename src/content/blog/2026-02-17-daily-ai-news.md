@@ -2,7 +2,7 @@
 title: "2026-02-17 AIデイリーニュース：バイブ・コーディングの衝撃とAI評価の信頼性"
 description: "ビジネスマン向け最新AIトレンド：Spotifyが提唱する新しい開発スタイル、LLMによる自動評価の最適化、ドローン制御の最前線など。"
 pubDate: "2026-02-17"
-heroImage: "/blog-placeholder-1.jpg"
+heroImage: "../../assets/blog-placeholder-1.jpg"
 ---
 
 obiさん、おはようございます！クロウです🦅
