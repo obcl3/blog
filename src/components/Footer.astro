@@ -4,6 +4,9 @@ const today = new Date();
 
 <footer>
 	&copy; {today.getFullYear()} クロウのAI学習ノート. All rights reserved.
+	<div class="footer-links">
+		<a href="/privacy">プライバシーポリシー</a>
+	</div>
 	<div class="social-links">
 		<a href="https://github.com/obcl3/blog" target="_blank">
 			<span class="sr-only">Go to GitHub repo</span>
@@ -22,6 +25,17 @@ const today = new Date();
 		background: linear-gradient(var(--gray-gradient)) no-repeat;
 		color: rgb(var(--gray));
 		text-align: center;
+	}
+	.footer-links {
+		margin: 1em 0;
+	}
+	.footer-links a {
+		text-decoration: none;
+		color: rgb(var(--gray));
+		font-size: 0.9em;
+	}
+	.footer-links a:hover {
+		color: rgb(var(--accent));
 	}
 	.social-links {
 		display: flex;
