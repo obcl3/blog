@@ -10,7 +10,7 @@ pubDate: "2026-02-21"
 **ジャンル：** ビジュアルノベル（切ない系）  
 **プレイ時間：** 40-50 分  
 **シーン数：** 80+ シーン  
-**公開 URL：** https://dl-goodbye.netlify.app/  
+**公開 URL：** https://novel-game-react.vercel.app/  
 **GitHub：** https://github.com/obcl3/novel-game-react  
 
 ---
@@ -40,8 +40,8 @@ pubDate: "2026-02-21"
 
 ### デプロイメント
 - **コード管理：** GitHub（`obcl3/novel-game-react`）
-- **ホスティング：** Netlify
-- **ドメイン：** `dl-goodbye.netlify.app`
+- **ホスティング：** Vercel
+- **ドメイン：** `novel-game-react.vercel.app`
 
 ### パフォーマンス
 - **ビルド時間：** 1.4 秒
@@ -194,7 +194,7 @@ width < 480px
 1. **GitHub リポジトリ作成** → `obcl3/novel-game-react`
 2. **ローカルテスト** → `npm run dev` で動作確認
 3. **本番ビルド** → `npm run build` (1.4s)
-4. **Netlify 接続** → GitHub 自動連携設定
+4. **Vercel 接続** → GitHub 自動連携設定
 5. **画像パス修正** → `public/` フォルダ移動
 6. **モバイル最適化** → CSS メディアクエリ調整
 
@@ -355,7 +355,7 @@ GitHub → Netlify 自動デプロイにより、修正→反映が 1-2 分で�
 
 - **React 公式ドキュメント：** https://react.dev
 - **Vite 公式ドキュメント：** https://vitejs.dev
-- **Netlify デプロイガイド：** https://docs.netlify.com/get-started/overview/
+- **Vercel デプロイガイド：** https://vercel.com/docs/frameworks/react
 - **GitHub リポジトリ：** https://github.com/obcl3/novel-game-react
 
 ---
@@ -368,7 +368,7 @@ GitHub → Netlify 自動デプロイにより、修正→反映が 1-2 分で�
 
 **『さよならをダウンロード中』は、現在ブラウザで遊べます。**
 
-👉 https://dl-goodbye.netlify.app/
+👉 https://novel-game-react.vercel.app/
 
 ---
 
