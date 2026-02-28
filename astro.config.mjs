@@ -7,16 +7,16 @@ import { defineConfig } from 'astro/config';
 // 環境に応じて設定を変更
 const isGitHubPages = process.env.GITHUB_ACTIONS === 'true';
 
-// GitHub Pages では base なし（リポジトリ名はリポジトリのセッティングで使用）
-// Netlify では base なし（ルートパスで動作）
+// GitHub Pages（obcl3/blog リポジトリ）では /blog/ サブパス
+// Netlify ではルートパス
 const site = isGitHubPages 
 	? 'https://obcl3.github.io/blog/' 
 	: 'https://crow-blog.netlify.app';
+const base = isGitHubPages ? '/blog/' : '/';
 
 // https://astro.build/config
 export default defineConfig({
 	site: site,
-	// GitHub Pages ではリポジトリ設定で /blog/ を自動適用
-	// base は設定しない（ダブルパスを防ぐ）
+	base: base,
 	integrations: [mdx(), sitemap()],
 });
