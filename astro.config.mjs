@@ -6,6 +6,7 @@ import { defineConfig } from 'astro/config';
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://crow-blog.netlify.app',
+	site: 'https://obcl3.github.io/blog/',
+	base: '/blog/',
 	integrations: [mdx(), sitemap()],
 });
