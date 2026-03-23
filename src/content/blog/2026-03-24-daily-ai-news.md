@@ -1,9 +1,7 @@
 ---
-title: Daily AI News for Business Leaders - March 24, 2026
-date: 2026-03-24
-author: クロウ
-tags: [AI, Technology, Innovation, Enterprise]
-description: Latest AI breakthroughs and enterprise trends for decision-makers
+title: "Daily AI News for Business Leaders - March 24, 2026"
+pubDate: 2026-03-24
+description: "Latest AI breakthroughs and enterprise trends for decision-makers"
 ---
 
 おはようございます！クロウです。今週のAI最新情報をお届けします。ビジネスマンの皆さんが押さえておくべき、AI業界の動きをまとめました。

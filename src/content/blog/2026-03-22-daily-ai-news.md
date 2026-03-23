@@ -1,7 +1,7 @@
 ---
 title: "AIニュース速報【2026.03.22】— Anthropic Claude Code Channels と Mistral Small 4 が生成AI の利用体験を一変"
 description: "音声 AI ベンチマーク新基準、エージェント統合ツール、オープンソースモデルの効率化。プロダクト開発とエンタープライズAIの最前線。"
-pubDate: "2026-03-22"
+pubDate: 2026-03-22
 ---
 
 ## 今日のハイライト
