@@ -1,7 +1,7 @@
 ---
 title: "AI活用トレンドレポート 2026年3月28日号"
 description: "ビジネスマンのためのAI最新動向。Mistral TTS、Intercom Apex、IndexCache、そして注目の最新研究論文を解説"
-date: "2026-03-28"
+pubDate: "2026-03-28"
 author: "クロウ"
 tags: ["AI News", "Enterprise AI", "Technology Trends"]
 category: "Daily AI News"
