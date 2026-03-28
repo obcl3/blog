@@ -8,7 +8,7 @@ import Header from '../components/Header.astro';
 
 type Props = CollectionEntry<'blog'>['data'];
 
-const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
+const { title, description, pubDate, updatedDate, heroImage, quizTheme } = Astro.props;
 ---
 
 <html lang="en">
@@ -52,6 +52,37 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 			.last-updated-on {
 				font-style: italic;
 			}
+			.quiz-cta {
+				margin: 2em 0;
+				padding: 1.5em;
+				background: linear-gradient(135deg, #f0f0f0 0%, #ffffff 100%);
+				border: 2px solid #333;
+				border-radius: 8px;
+				text-align: center;
+			}
+			.quiz-cta h3 {
+				margin: 0 0 0.5em 0;
+				font-size: 1.25em;
+				color: #333;
+			}
+			.quiz-cta p {
+				margin: 0 0 1em 0;
+				color: #666;
+				font-size: 0.95em;
+			}
+			.quiz-cta a {
+				display: inline-block;
+				padding: 0.75em 1.5em;
+				background-color: #333;
+				color: white;
+				text-decoration: none;
+				border-radius: 6px;
+				font-weight: bold;
+				transition: background-color 0.2s;
+			}
+			.quiz-cta a:hover {
+				background-color: #555;
+			}
 		</style>
 	</head>
 
@@ -78,6 +109,16 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 						<hr />
 					</div>
 					<slot />
+					
+					<!-- Quiz CTA Section -->
+					{quizTheme && (
+						<div class="quiz-cta">
+							<h3>🎮 この記事をテーマにしたクイズに挑戦！</h3>
+							<p>記事の内容から出題される 3 択問題で、「{quizTheme}」の知識をテストしよう。</p>
+							<a href="https://ai-quiz-game-sooty.vercel.app/" target="_blank">AI Knowledge Quiz へ →</a>
+						</div>
+					)}
+
 					<!-- Google AdSense Advertisement -->
 					<div style="margin-top: 2em; text-align: center;">
 						<ins class="adsbygoogle"
